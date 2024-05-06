@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pytorch-docker-poetry-dvc"
+version = "0.1.0"
+description = ""
+authors = ["NotHolmes"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+dvc = "^3.50.1"
+torch = "^2.3.0"
+torchvision = "^0.18.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
